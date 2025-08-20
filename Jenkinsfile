@@ -39,7 +39,7 @@ pipeline {
 	stage('Run Tests') {
 	    steps {
 		script {
-		    echo 'Waiting services's play...'
+		    echo 'Waiting services play...'
 		    sleep time: 30 unit: 'SECONDS'
 
 		    echo 'Test front...'
