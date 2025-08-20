@@ -40,7 +40,7 @@ pipeline {
 	    steps {
 		script {
 		    echo 'Waiting services play...'
-		    sleep time: 30 unit: 'SECONDS'
+		    sleep time: 30, unit: 'SECONDS'
 
 		    echo 'Test front...'
 		    sh """
