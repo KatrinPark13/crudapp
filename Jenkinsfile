@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-	SWARM_STACK_NAME = 'crudapp'
+	SWARM_STACK_NAME = 'app'
 	DB_SERVICE = 'db'
 	DB_USER = 'root'
 	DB_PASSWORD= 'secret'
